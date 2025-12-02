@@ -1,7 +1,7 @@
 const{test,expect}=require ('@playwright/test');
 
 
-test.only('end to end',async ({page})=>
+test('end to end',async ({page})=>
 {
     page.goto("https://rahulshettyacademy.com/client/#/auth/login");
     const username="hknavaneeth@gmail.com";
