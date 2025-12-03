@@ -15,7 +15,7 @@ test('form fill and submit', async({page}) =>
 
 });
 
-test.only('calendar',async ({page})=>
+test('calendar',async ({page})=>
 {
  
     const monthNumber = "6";
