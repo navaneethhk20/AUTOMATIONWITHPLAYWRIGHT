@@ -1,5 +1,12 @@
-{
+[
+    {
     "username":"hknavaneeth@gmail.com",
     "password":"Nithu@12345",
     "productName":"Zara Coat 4"
+},
+{
+    "username":"rahulshetty@gmail.com",
+    "password":"Iamking@0000",
+    "productName":"Addidas Originals"
 }
+]
