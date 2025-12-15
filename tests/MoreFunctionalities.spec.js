@@ -32,7 +32,7 @@ test('screenshots and visual checks',async({page})=>
     await page.locator('#displayed-text').screenshot({path:'partialscreenshot2.png'});
 });
 
-test.only('visual', async({page})=>
+test('visual', async({page})=>
 {
     page.goto("https://www.facebook.com/");
     expect(await page.screenshot()).toMatchSnapshot('landing.png');
